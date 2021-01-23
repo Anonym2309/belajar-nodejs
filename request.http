@@ -1,0 +1,64 @@
+GET http://localhost:3000/tampil/1
+
+###
+
+POST http://localhost:3000/tambah
+Connection: CONNECT  
+Content-Type: application/json
+
+{
+    "NIK": "202111396",
+    "nama": "Marsya Timoty",
+    "fakultas":"Tehnik Sipil"
+}
+
+###
+
+PUT http://localhost:3000/ubah
+Connection: CONNECT 
+content-type: application/json
+
+{
+    "id_mahasiswa":"3",
+    "NIK": "202111396",
+    "nama": "Tom",
+    "fakultas":"Management"
+}
+
+###
+
+DELETE http://localhost:3000/hapus
+Connection: CONNECT 
+content-type: application/json
+
+{
+    "id_mahasiswa":"9"
+}
+
+
+###
+GET http://localhost:3000/tampilmatakuliah
+
+
+###
+POST http://localhost:3000/auth/api/v1/register
+Connection: CONNECT    
+content-type: application/json 
+
+{
+    "username":"bayu",
+    "email":"juraganpos23@gmail.com",
+    "password":"123",
+    "role":"2",
+    "tanggal_daftar":"2021-01-24"
+}
+
+###
+POST http://localhost:3000/auth/api/v1/login
+Connection: CONNECT    
+content-type: application/json 
+
+{
+    "password":"123",
+    "email":"febriansyah@gmail.com"
+}
