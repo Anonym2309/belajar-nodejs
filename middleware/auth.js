@@ -7,41 +7,15 @@ var config = require("../config/secret");
 var ip = require("ip");
 var nodemailer = require("nodemailer");
 
-//!verifikasi menggunakan SMTP2GO
 var smtpTransport = nodemailer.createTransport({
-  host: "mail.smtp2go.com",
-  port: 2525,
+  host: "smtp.gmail.com",
+  port: 456,
+  secure: true,
   auth: {
-    user: "meteor.id",
-    pass: "WblvtzdLHKqk",
+    user: "bayuputra649@gmail.com",
+    pass: "beabayeuyu23",
   },
 });
-
-smtpTransport.sendMail(
-  {
-    from: "bayu.adi@meteor.id ",
-    to: "Recipient Name ",
-    subject: "Your Subject",
-    text: "It is a test message",
-  },
-  function (error, response) {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log("Message sent: " + response.message);
-    }
-  }
-);
-
-// let smtpTransport = nodemailer.createTransport({
-//   host: "smtp.gmail.com",
-//   port: 465,
-//   secure: true,
-//   auth: {
-//     user: "reactjstutorialindonesia@gmail.com",
-//     pass: "Reactjs2020",
-//   },
-// });
 
 var rand, mailOptions, host, link;
 

@@ -32,7 +32,7 @@ Connection: CONNECT
 content-type: application/json
 
 {
-    "id_mahasiswa":"9"
+    "id_mahasiswa":"74"
 }
 
 
@@ -46,11 +46,11 @@ Connection: CONNECT
 content-type: application/json 
 
 {
-    "username":"bayu",
+    "username":"kanga",
     "email":"juraganpos23@gmail.com",
     "password":"123",
     "role":"2",
-    "tanggal_daftar":"2021-01-24"
+    "tanggal_daftar":"2021-01-28"
 }
 
 ###
