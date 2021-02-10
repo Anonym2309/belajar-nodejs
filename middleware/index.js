@@ -1,7 +1,7 @@
 var express = require("express");
 var auth = require("./auth");
 var router = express.Router();
-// var verifikation = require('./verification');
+// var verifikation = require("./verification");
 var verifikasi = require("./verifikasi");
 
 //daftarkan menu registrasi

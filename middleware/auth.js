@@ -7,9 +7,10 @@ var config = require("../config/secret");
 var ip = require("ip");
 var nodemailer = require("nodemailer");
 
+async function main() {}
 var smtpTransport = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 456,
+  host: "smtp.googlemail.com",
+  port: 465,
   secure: true,
   auth: {
     user: "bayuputra649@gmail.com",
