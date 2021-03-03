@@ -46,11 +46,11 @@ Connection: CONNECT
 content-type: application/json 
 
 {
-    "username":"fitra",
-    "email":"Fitra@myboost.id",
+    "username":"beabayeuyu",
+    "email":"bayuputra649@gmail.com",
     "password":"123",
     "role":"2",
-    "tanggal_daftar":"2021-02-20"
+    "tanggal_daftar":"2021-03-03"
 }
 
 ###

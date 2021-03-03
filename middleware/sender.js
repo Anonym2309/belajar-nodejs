@@ -1,8 +1,8 @@
 const request = require("request");
 
-var smtpurl = "https://api.smtp2go.com/v3/email/send";
+var smtpurl = "https://api.googlemail.com/v3/email/send";
 
-var smtpob = ("meteor.id", "bayu.adi@meteor.id") => {
+var smtpob = ("gmail.com", "bayuputra649@gmail.com") => {
   return {
     api_key: "your-api-key",
     to: [`${name} <${email}>`],
