@@ -1,4 +1,7 @@
 {
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12
+    "editor.fontSize": 12,
+    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 11
 }
