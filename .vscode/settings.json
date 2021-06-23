@@ -1,7 +1,25 @@
 {
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12,
-    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "SynthWave '84",
+    "workbench.sideBar.location": "right",
+    "tabnine.experimentalAutoImports": true,
+    "redhat.telemetry.enabled": true,
+    "git-graph.integratedTerminalShell": "Git Bash",
+    "miramac.node.terminalMode": true,
+    "terminal.external.windowsExec": "Git Bash",
+    "terminal.integrated.automationShell.windows": "Git Bash",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 11
+    "terminal.integrated.fontSize": 11,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.env.windows": {
+    
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "rest-client.fontFamily": "Fira Code",
+    "rest-client.fontSize": 12,
+    "terminal.integrated.fontWeight": "normal",
 }
