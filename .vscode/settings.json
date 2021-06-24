@@ -15,6 +15,7 @@
     "editor.fontFamily": "Fira Code",
     "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.env.windows": {
+
     
     },
     "liveServer.settings.donotShowInfoMsg": true,
@@ -22,4 +23,23 @@
     "rest-client.fontFamily": "Fira Code",
     "rest-client.fontSize": 12,
     "terminal.integrated.fontWeight": "normal",
+    "editor.inlayHints.fontFamily": "Fira Code",
+    "editor.inlayHints.fontSize": 12,
+    "editor.codeLensFontFamily": "Fira Code",
+    "editor.codeLensFontSize": 12,
+    "terminal.integrated.profiles.windows": {
+    
+        
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
 }
